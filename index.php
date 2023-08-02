@@ -6,7 +6,7 @@ try {
     $postmanUrl  = 'https://api.getpostman.com';
     $workspaceId = 'YOUR_WORKSPACE_ID';
     $apiKey      = 'YOUR_POSTMAN_APIKEY';
-    $env         = 'local';
+    $env         = 'production';
 
     $curl = curl_init();
 
